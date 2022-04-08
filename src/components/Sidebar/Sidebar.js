@@ -10,27 +10,24 @@ import {
   Btn,
 } from "./Sidebar.styles";
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <Container>
-      <Icon>
-        <CloseIcon />
+    <Container isOpen={isOpen}>
+      <Icon onClick={toggle}>
+        <CloseIcon  />
       </Icon>
       <Wraper>
         <Menu>
-          <SidebarLink to="about">About</SidebarLink>
-        </Menu>
-        <Menu>
-          <SidebarLink to="discover">Discover</SidebarLink>
-        </Menu>
-        <Menu>
-          <SidebarLink to="relax">Into Forest</SidebarLink>
-        </Menu>
-        <Menu>
-          <SidebarLink to="join">Join</SidebarLink>
+          <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
+
+          <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
+
+          <SidebarLink to="relax" onClick={toggle}>Into Forest</SidebarLink>
+
+          <SidebarLink to="join" onClick={toggle}>Join</SidebarLink>
         </Menu>
         <BtnWrapper>
-          <Btn to="/signin">Sign In</Btn>
+          <Btn to="/signin" onClick={toggle}>Sign In</Btn>
         </BtnWrapper>
       </Wraper>
     </Container>
