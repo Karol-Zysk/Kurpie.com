@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <Navbar toggle={toggle} />
+      <Hero />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Hero/>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 import {
   HeroBg,
   Container,
@@ -14,11 +14,11 @@ import Video from "../../video/Video.mp4";
 import { Button } from "../Button";
 
 export const Hero = () => {
-  const [hover, setHover] = useState(false)
+  const [hover, setHover] = useState(false);
 
   const onHover = () => {
-      setHover(!hover)
-  }
+    setHover(!hover);
+  };
   return (
     <Container id="home">
       <HeroBg>
@@ -30,18 +30,21 @@ export const Hero = () => {
           type="video/mp4"
           author="Wideo (autor: Matthias Groeneveld) z Pexels"
         />
-        <HeroContent>
-          <HeroH1>Into the Wild</HeroH1>
-          <HeroP>
-            Free Your Mind. Become One With Nature. Visit The Green Kurpie.
-          </HeroP>
-          <BtnWrapper>
-            <Button onMouseEnter={onHover} onMouseLeave={onHover} to="signin">
-              Come In {hover ? <ArrowForward /> : <ArrowRight />}
-            </Button >
-          </BtnWrapper>
-        </HeroContent>
       </HeroBg>
+      <HeroContent>
+        <HeroH1>Into the Wild</HeroH1>
+        <HeroP>
+          Free Your Mind. Become One With Nature. Visit The Green Kurpie.
+        </HeroP>
+        <BtnWrapper>
+          <Button onMouseEnter={onHover} onMouseLeave={onHover} to="signin"
+          primary="true"
+          dark='true'
+          >
+            Come In {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </BtnWrapper>
+      </HeroContent>
     </Container>
   );
 };
