@@ -36,7 +36,7 @@ const Discover = () => {
           <Image src={Img3}></Image>
           <DiscoverH2>Discover Wild Nature</DiscoverH2>
           <DiscoverP>
-            Discover the Kurpie Forest with a guide. A forest that has lived
+            Discover the Primeval Forest with a guide. Forest that has lived
             without human interference for hundreds of years.
           </DiscoverP>
         </Card>

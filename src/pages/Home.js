@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Discover from "../components/Discover/Discover";
+import Footer from "../components/Footer/Footer";
 import { Hero } from "../components/Hero/Hero";
 import {
   HomeVariables,
@@ -28,6 +29,7 @@ const Home = () => {
       <InfoSection {...HomeVariablesThree} />
       <InfoSection {...HomeVariablesFour} />
       <Discover />
+      <Footer />
     </>
   );
 };

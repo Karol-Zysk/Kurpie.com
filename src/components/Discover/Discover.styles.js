@@ -49,7 +49,8 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
-  max-height: 340px;
+  height: 350px;
+  /* justify-content: flex-start; */
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
