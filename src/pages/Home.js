@@ -1,5 +1,12 @@
 import { useState } from "react";
+import Discover from "../components/Discover/Discover";
 import { Hero } from "../components/Hero/Hero";
+import {
+  HomeVariables,
+  HomeVariablesTwo,
+  HomeVariablesThree,
+  HomeVariablesFour,
+} from "../components/InfoSection/Data";
 import InfoSection from "../components/InfoSection/InfoSection";
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
@@ -16,7 +23,11 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <InfoSection />
+      <InfoSection {...HomeVariables} />
+      <InfoSection {...HomeVariablesTwo} />
+      <InfoSection {...HomeVariablesThree} />
+      <InfoSection {...HomeVariablesFour} />
+      <Discover />
     </>
   );
 };

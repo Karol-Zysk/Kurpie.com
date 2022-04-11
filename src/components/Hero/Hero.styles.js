@@ -62,7 +62,7 @@ export const HeroH1 = styled.h1`
   color: white;
   font-size: 48px;
   text-align: center;
-  text-shadow: 3px 4px 3px black;
+  text-shadow: 3px 4px 3px #010606;
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
@@ -76,7 +76,7 @@ export const HeroP = styled.p`
   color: white;
   text-align: center;
   max-width: 600px;
-  text-shadow: 2px 1px 2px black;
+  text-shadow: 2px 1px 2px #010606;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }

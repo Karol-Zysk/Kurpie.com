@@ -25,18 +25,19 @@ const Navbar = ({ toggle }) => {
             <Item>
               <NavLink to="about">About</NavLink>
             </Item>
+
+            <Item>
+              <NavLink to="culture">Culture</NavLink>
+            </Item>
+            <Item>
+              <NavLink to="forest">Primeval Forest</NavLink>
+            </Item>
             <Item>
               <NavLink to="discover">Discover</NavLink>
             </Item>
-            <Item>
-              <NavLink to="relax">Into Forest</NavLink>
-            </Item>
-            <Item>
-              <NavLink to="join">Join</NavLink>
-            </Item>
           </Menu>
           <NavBtn>
-            <BtnLink to="signin">Sign In</BtnLink>
+            <BtnLink to="visit">Visit</BtnLink>
           </NavBtn>
         </Container>
       </Nav>
