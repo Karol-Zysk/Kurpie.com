@@ -16,26 +16,24 @@ export const HomeVariables = {
   darkText: true,
 };
 
-
-
-export const HomeVariablesThree = {
+export const HomeVariablesTwo = {
   id: "culture",
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lightTextDesc: true,
   topLine: "Culture",
   headline: "Visit Myszyniec and learn about the Kurpie culture.",
   description:
     "There used to be a huge forest here ... Until a few hundred years ago it was inhabited by settlers, for whom the cavernous forests were not dangerous and the ability to operate a shotgun and use the gifts of the forest came almost naturally. Today rediscovered.",
   buttonLabel: "See More",
-  imgStart: false,
-  img: require("../../img/img3.jpg"),
+  imgStart: true,
+  img: require("../../img/img2.png"),
   alt: "Culture",
   dark: true,
   primary: true,
-  darkText: true,
+  darkText: false,
 };
-export const HomeVariablesFour = {
+export const HomeVariablesThree = {
   id: "forest",
   lightBg: false,
   lightText: true,
@@ -52,22 +50,22 @@ export const HomeVariablesFour = {
   primary: true,
   darkText: true,
 };
-export const HomeVariablesTwo = {
-  id: "visit",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Visit Kurpie",
-  headline: "Visit Myszyniec and learn about the Kurpie culture.",
+export const HomeVariablesFour = {
+  id: "offer",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Contact Us",
+  headline: "Need More Information ? Click the button",
   description:
-    "There used to be a huge forest here ... Until a few hundred years ago it was inhabited by settlers, for whom the cavernous forests were not dangerous and the ability to operate a shotgun and use the gifts of the forest came almost naturally. Today rediscovered.",
-  buttonLabel: "See More",
+    "in our tradition, we welcome guests with: bread, salt and vodka. We hope to welcome you!",
+  buttonLabel: "Contact",
   imgStart: false,
-  img: require("../../img/img3.jpg"),
+  img: require("../../img/img4.jpg"),
   alt: "Culture",
   dark: true,
   primary: true,
-  darkText: true,
+  darkText: false,
 };
 
 // export const HomeVariablesTwo = {

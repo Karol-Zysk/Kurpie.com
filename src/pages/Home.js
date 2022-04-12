@@ -27,8 +27,8 @@ const Home = () => {
       <InfoSection {...HomeVariables} />
       <InfoSection {...HomeVariablesTwo} />
       <InfoSection {...HomeVariablesThree} />
-      <InfoSection {...HomeVariablesFour} />
       <Discover />
+      <InfoSection {...HomeVariablesFour} />
       <Footer />
     </>
   );

@@ -69,7 +69,7 @@ export const DiscoverH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 0px;
-  margin-top: 140px;
+  margin-top: 80px;
 
   @media screen and (max-width: 1000px) {
     margin-top: 0px;
