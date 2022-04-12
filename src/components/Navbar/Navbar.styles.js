@@ -3,7 +3,7 @@ import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.div`
-  background: #1a4710;
+  background: ${({ scrollNav }) => (scrollNav ? "#1a4710" : "transparent")};
   height: 10vh;
   margin-top: -10vh;
   display: flex;
@@ -13,6 +13,7 @@ export const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: all 800ms ease-in-out;
 
   @media screen and (max-width: 960px) {
     transition: all 0.8s ease;
@@ -79,9 +80,12 @@ export const NavLink = styled(LinkScroll)`
   padding: 0rem 1rem;
   cursor: pointer;
   height: 100%;
+  transition: all 200ms ease-in-out;
+  border-bottom: 3px solid transparent;
 
   &.active {
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid white;
+    transition: all 200ms ease-in-out;
   }
 `;
 

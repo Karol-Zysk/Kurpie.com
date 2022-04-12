@@ -1,4 +1,25 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll/modules";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  Container,
+  Wrapper,
+  LinksContainer,
+  LinksWrapper,
+  LinkItems,
+  LinkTitle,
+  FLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialIconLink,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+} from "./Footer.styles.js";
+
+const toggleHome = () => {
+  scroll.scrollToTop();
+};
 
 const Footer = () => {
   return (
@@ -42,6 +63,46 @@ const Footer = () => {
             </LinkItems>
           </LinksWrapper>
         </LinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Kurpie
+            </SocialLogo>
+            <WebsiteRights>
+              Kurpie © {new Date().getFullYear()} All Rights Reserved{" "}
+            </WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink
+                href="//www.google.com"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.google.com"
+                target="_blank"
+                aria-label="Youtube"
+              >
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.google.com"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <FaTwitter />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.google.com"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </Wrapper>
     </Container>
   );
