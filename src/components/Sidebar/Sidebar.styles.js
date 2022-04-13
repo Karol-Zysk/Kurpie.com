@@ -66,18 +66,21 @@ export const BtnWrapper = styled.div`
 
 export const Btn = styled(LinkRouter)`
   border-radius: 50px;
-  background: green;
+  background: #1a4710;
   white-space: nowrap;
   padding: 16px 64px;
   color: white;
   outline: none;
-  border: none;
+  border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.2 ease-in-out;
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
     transition: all 0.2s ease-in-out;
+    color: #1a4710;
     background: white;
+    border: 2px solid #1a4710;
   }
 `;

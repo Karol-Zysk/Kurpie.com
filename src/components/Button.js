@@ -9,16 +9,18 @@ export const Button = styled(Link)`
   color: ${({ dark }) => (dark ? "white" : "#010606")};
   outline: none;
   cursor: pointer;
-  border: none;
+  border: 2px solid transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-weight: bold;
 
   &:hover {
-    transition: all 300ms ease-in-out;
-    color: #010606;
+    transition: all 200ms ease-in-out;
+    color: #1a4710;
     background: ${({ primary }) =>
-      primary ? "rgba(255,255,255, 0.5)" : "#1a4710"};
+      primary ? "rgba(255,255,255, 1)" : "#1a4710"};
+    border: 2px solid #1a4710;
   }
 `;

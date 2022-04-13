@@ -4,8 +4,8 @@ import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.div`
   background: ${({ scrollNav }) => (scrollNav ? "#1a4710" : "transparent")};
-  height: 10vh;
-  margin-top: -10vh;
+  height: 80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,14 +105,16 @@ export const BtnLink = styled(LinkRouter)`
   color: #010606;
   font-size: 16px;
   outline: none;
-  border: none;
+  border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
     transition: all 0.2s ease-in-out;
     color: white;
-    background-color: #010606;
+    background-color: #1a4710;
+    border: 2px solid white;
   }
 `;

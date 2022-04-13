@@ -32,14 +32,18 @@ export const Hero = () => {
         />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Into the Wild</HeroH1>
+        <HeroH1>Discover Kurpie</HeroH1>
         <HeroP>
-          Free Your Mind. Become One With Nature. Visit The Green Kurpie.
+          Get to know the Kurpie tradition, discover nature in the Kurpie
+          Forest.
         </HeroP>
         <BtnWrapper>
-          <Button onMouseEnter={onHover} onMouseLeave={onHover} to="signin"
-          primary="true"
-          dark='true'
+          <Button
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            to="signin"
+            primary="true"
+            dark="true"
           >
             Come In {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

@@ -20,14 +20,14 @@ const Sidebar = ({ isOpen, toggle }) => {
         <Menu>
           <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
 
+          <SidebarLink to="culture" onClick={toggle}>Culture</SidebarLink>
+
+          <SidebarLink to="forest" onClick={toggle}>Primeval Forest</SidebarLink>
+
           <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
-
-          <SidebarLink to="relax" onClick={toggle}>Into Forest</SidebarLink>
-
-          <SidebarLink to="join" onClick={toggle}>Join</SidebarLink>
         </Menu>
         <BtnWrapper>
-          <Btn to="/signin" onClick={toggle}>Sign In</Btn>
+          <Btn to="/signin" onClick={toggle}>Contact</Btn>
         </BtnWrapper>
       </Wraper>
     </Container>

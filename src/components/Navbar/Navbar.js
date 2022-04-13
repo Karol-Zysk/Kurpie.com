@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <Container>
           <Logo to="/" onClick={toggleHome}>
-            Kurpie
+            Kurpie.com
           </Logo>
           <MobileIcon onClick={toggle}>
             <FaBars />

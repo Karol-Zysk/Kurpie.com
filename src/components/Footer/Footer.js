@@ -36,22 +36,19 @@ const Footer = () => {
               <FLink to="/contact">TikTok</FLink>
             </LinkItems>
             <LinkItems>
-              <LinkTitle>Find Us </LinkTitle>
-              <FLink to="/contact">Facebook</FLink>
-              <FLink to="/contact">Tweeter</FLink>
-              <FLink to="/contact">Instagram</FLink>
-              <FLink to="/contact">YouTube</FLink>
-              <FLink to="/contact">TikTok</FLink>
+              <LinkTitle>More Info </LinkTitle>
+              <FLink to="/contact">Kurpie Wiki</FLink>
+              <FLink to="/contact">Kurpie Atlas</FLink>
             </LinkItems>
           </LinksWrapper>
           <LinksWrapper>
             <LinkItems>
-              <LinkTitle>Find Us </LinkTitle>
-              <FLink to="/contact">Facebook</FLink>
-              <FLink to="/contact">Tweeter</FLink>
-              <FLink to="/contact">Instagram</FLink>
-              <FLink to="/contact">YouTube</FLink>
-              <FLink to="/contact">TikTok</FLink>
+              <LinkTitle>Know Us </LinkTitle>
+              <FLink to="/contact">Kurpie Food</FLink>
+              <FLink to="/contact">Kurpie tradition</FLink>
+              <FLink to="/contact">Folk Dancing</FLink>
+              <FLink to="/contact">Cutouts</FLink>
+              <FLink to="/contact">Folk Costumes</FLink>
             </LinkItems>
             <LinkItems>
               <LinkTitle>Find Us </LinkTitle>
