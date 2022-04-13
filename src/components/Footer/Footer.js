@@ -58,7 +58,7 @@ const Footer = () => {
               <FLink to="/contact">Recipes</FLink>
               <FLink to="/contact">"Rejbak"</FLink>
               <FLink to="/contact">Onion Water</FLink>
-              <FLink to="/contact">Traditional Bread</FLink>
+              <FLink to="/contact">Traditional Breadd</FLink>
               
             </LinkItems>
           </LinksWrapper>
